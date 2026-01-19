@@ -1,0 +1,22 @@
+    1  git statis
+    2  git status
+    3  cd 
+    4  mkdir github-for-devops
+    5  cd github-for-devops/
+    6  echo "Hello world" >> test.py
+    7  ls
+    8  git init
+    9  git status
+   10  git add .
+   11  git ls
+   12  git status
+   13  git commit -m "Test commit"
+   14  ls
+   15  rm -f test.py 
+   16  ls
+   17  git status
+   18  git restore test.py 
+   19  ls
+   20  hitory
+   21  history
+   22  history >> commands.txt
