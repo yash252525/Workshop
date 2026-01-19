@@ -20,3 +20,55 @@
    20  hitory
    21  history
    22  history >> commands.txt
+    1  git statis
+    2  git status
+    3  cd 
+    4  mkdir github-for-devops
+    5  cd github-for-devops/
+    6  echo "Hello world" >> test.py
+    7  ls
+    8  git init
+    9  git status
+   10  git add .
+   11  git ls
+   12  git status
+   13  git commit -m "Test commit"
+   14  ls
+   15  rm -f test.py 
+   16  ls
+   17  git status
+   18  git restore test.py 
+   19  ls
+   20  hitory
+   21  history
+   22  history >> commands.txt
+   23  cat commands.txt 
+   24  ls
+   25  git status
+   26  git add .
+   27  git commit -m "Test commit for commands"
+   28  git config --global --edit
+   29  git branch
+   30  git remote add origin https://github.com/yash252525/Workshop.git
+   31  git remote -v
+   32  git branch -M main
+   33  git branch
+   34  git config --credential.helper store
+   35  git --config credential.helper store
+   36  git config --global credential.helper store
+   37  git push origin main
+   38  cd ..
+   39  ls
+   40  mkdir git-demo-new
+   41  cd git-demo-new/
+   42  git clone https://github.com/yash252525/github-for-devops-workshop.git
+   43  ls
+   44  cd github-for-devops-workshop/
+   45  ls
+   46  cat cd 
+   47  cd
+   48  ;s
+   49  ls
+   50  cd github-for-devops/
+   51  ls
+   52  history >> commands.txt
