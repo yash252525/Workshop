@@ -72,3 +72,183 @@
    50  cd github-for-devops/
    51  ls
    52  history >> commands.txt
+    1  cd
+    2  ls
+    3  git status
+    4  git-for-devops
+    5  mkdir git-for-devops
+    6  cd git-for-devops/
+    7  git init
+    8  ls
+    9  ls -al
+   10  rm -f .git/
+   11  git clone https://github.com/yash252525/Workshop.git
+   12  dir
+   13  ls
+   14  cd Workshop/
+   15  ls
+   16  git branch
+   17  git branch checkout dev
+   18  git branch
+   19  git checkout -b dev
+   20  git branch
+   21  git switch main
+   22  dir
+   23  git status
+   24  ls
+   25  cd .git/
+   26  ls
+   27  cd hooks/
+   28  ls
+   29  vim pre-commit.sample 
+   30  vim pre-commit
+   31  cd
+   32  ls
+   33  cd git-for-devops/
+   34  ls
+   35  ls
+   36  cd .git/
+   37  ls
+   38  cd hooks/
+   39  ls
+   40  cd ..
+   41  lcd
+   42  ls
+   43  cd
+   44  ls
+   45  ls -al
+   46  cd git-for-devops/
+   47  ls
+   48  ls -al
+   49  cd .git/
+   50  ls
+   51  cd hooks/
+   52  ls
+   53  cd ..
+   54  cd W
+   55  cd Wcd .
+   56  cd ..
+   57  cd Workshop/
+   58  ls
+   59  ls -al
+   60  cd .git/
+   61  ls
+   62  cd hooks/
+   63  ls
+   64  chmod 744 pre-commit
+   65  ls
+   66  cd ..
+   67  cd ..
+   68  ls -al
+   69  cd ..
+   70  cd 
+   71  ls
+   72  pwd
+   73  cd git-for-devops/
+   74  ls
+   75  ls -al
+   76  rm -f .git/
+   77  rm -rf .git/
+   78  ls
+   79  ls -al
+   80  cd Workshop/
+   81  ls
+   82  git status
+   83  cat test.py 
+   84  vim yash.py
+   85  yum install -y flake8
+   86  python --version
+   87  python3 --version
+   88  sudo yum install pip
+   89  dir
+   90  pip install flake8
+   91  sudo pip install flake8
+   92  pip install flake8
+   93  git status 
+   94  flake8 yash.py 
+   95  git status
+   96  git add yash.py 
+   97  git status
+   98  git commit -m "test commit yash.py"
+   99  ls
+  100  cp .git/hooks/pre-commit .
+  101  ls
+  102  git add .
+  103  git config --global credential-helper store
+  104  git config --global credential.helper store
+  105  git status
+  106  git branch
+  107  git push origin main
+  108  git status
+  109  git push origin main
+  110  git commit -m "commit for git hooks"
+  111  ls
+  112  vim yash.py 
+  113  flake8 yash.py 
+  114  vim yash.py 
+  115  flake8 yash.py 
+  116  vim yash.py 
+  117  flake8 yash.py 
+  118  vim yash.py 
+  119  flake8 yash.py 
+  120  cat yash.py 
+  121  flake8 yash.py 
+  122  vim yash.py 
+  123  flake8 yash.py 
+  124  cat yash.py 
+  125  vim yash.py 
+  126  flake8 yash.py 
+  127  vim yash.py 
+  128  flake8 yash.py 
+  129  vim yash.py 
+  130  flake8 yash.py 
+  131  git status
+  132  git add .
+  133  git status
+  134  git commit -m "commit for git hooks"
+  135  git push origin main 
+  136  ls
+  137  flake8 test.py 
+  138  ls
+  139  vim test.py 
+  140  git add .
+  141  git commit -m "minor changes"
+  142  git status
+  143  git push 
+  144  git pull
+  145  git fetch
+  146  ls
+  147  git config --global
+  148  git push origin main
+  149  git push --help
+  150  git pull origin main
+  151  ls
+  152  git config pull.rebase true
+  153  ls
+  154  git config --global --rebase
+  155  git status
+  156  git branch
+  157  git pull --rebase origin main
+  158  ls
+  159  git status
+  160  git push origin main
+  161  ls
+  162  mv test.py test_yash.py
+  163  git add .
+  164  git commit -m "changing the test file name"
+  165  git push 
+  166  ls
+  167  vim test_yash.py 
+  168  git add .
+  169  git commit -m "minimal change"
+  170  vim test_yash.py 
+  171  git add .
+  172  git commit -m "changing the test file name"
+  173  vim test_yash.py 
+  174  git add .
+  175  git commit -m "changing the test file name"
+  176  git add .
+  177  git status
+  178  git push
+  179  ls
+  180  history >> commands.txt 
